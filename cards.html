@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cards Project</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            width: 100vw;
+            background-image: linear-gradient(to right top, #131f31, #1e2a3d, #28354a, #344057, #3f4c65);
+        }
+        
+        .card {
+            display: flex;
+            flex-direction: column;
+            height: 60%;
+            width: 40%;
+            background-color: rgb(50, 10, 38);
+            box-shadow: rgba(71, 70, 70, 0.25) 0px 54px 55px, rgba(239, 238, 238, 0.12) 0px -12px 30px, rgba(243, 237, 237, 0.12) 0px 4px 6px, rgba(240, 235, 235, 0.17) 0px 12px 13px, rgba(240, 229, 229, 0.09) 0px -3px 5px;
+        }
+        
+        .rightbox img {
+            width: 100%;
+            height: 250px;
+        }
+        
+        .leftbox {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            font-size: 0.9rem;
+            gap: 25px;
+            padding: 10px;
+            color: white;
+        }
+        
+        .leftbox h2 {
+            font-weight: 800;
+            font-size: 2vw;
+            text-decoration: underline;
+            font-family: 'Times New Roman', Times, serif;
+        }
+        
+        .items {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+            width: 100%;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="card">
+            <div class="rightbox">
+                <img src="./images/bs.jpeg" alt="background-image">
+            </div>
+            <div class="leftbox">
+                <h2>Get insights that help your bussiness grow</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim aperiam aspernatur iusto quas, ratione quis repellat quaerat dolor incidunt ab ex impedit deserunt. </p>
+                <div class="items">
+                    <div class="left">
+                        <h2>10k+</h2>
+                        <p>comments</p>
+                    </div>
+                    <div class="mid">
+                        <h2>214</h2>
+                        <p>Paid users</p>
+                    </div>
+                    <div class="right">
+                        <h2>12M+</h2>
+                        <p>views</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
