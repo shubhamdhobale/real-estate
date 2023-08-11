@@ -1,0 +1,44 @@
+html {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0.15) 0%, rgba(0, 0, 0, 0.15) 100%), radial-gradient(at top center, rgba(255, 255, 255, 0.40) 0%, rgba(0, 0, 0, 0.40) 120%) #989898;
+    background-blend-mode: multiply, multiply;
+}
+
+.jokes {
+    height: 60px;
+    width: 400px;
+    background-color: #121212;
+    border-radius: 15px;
+    text-align: center;
+    position: relative;
+    left: 35%;
+}
+
+.jokes h1 {
+    color: #7a7a7a;
+    padding: 10px;
+}
+
+#joke {
+    height: 100px;
+    width: 600px;
+    background-color: #121212;
+    border-radius: 15px;
+    text-align: center;
+    position: relative;
+    left: 27%;
+    color: #ababab;
+    margin-top: 30px;
+    padding-top: 20px;
+}
+
+.btn {
+    height: 70px;
+    width: 150px;
+    position: absolute;
+    left: 43%;
+    top: 25%;
+}
