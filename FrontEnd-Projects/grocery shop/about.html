@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="grocery shop, grocery shop in pune, best grocery shop">
+    <meta name="keywords" content="grocery shop, grocery shop in pune, best grocery shop">
+    <meta name="author" content="rushikesh manwar">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+        integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+        integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+        integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <title>Grocery shop | About</title>
+    <script>
+        window.onload = function () {
+            document.querySelector('.main-div').style.display = "block";
+            document.querySelector('.loader').style.display = "none";
+        }
+    </script>
+</head>
+
+<body>
+    <!------ grocery shop ------>
+    <!-- loader -->
+    <div class="loader">
+        <img src="images/loader_gif.gif" alt="">
+    </div>
+
+    <!----- main-division ----->
+    <div class="main-div">
+        <!-- header -->
+        <header>
+            <div class="nav-bar-1">
+                <div class="container">
+                    <div class="logo"><i class="fas fa-shopping-basket"></i>grocery</div>
+                    <div class="search"><input type="search" name="" id="" placeholder="Search grocery.."><i
+                            class="fas fa-search"></i></div>
+                </div>
+            </div>
+            <div class="nav-bar-2">
+                <ul class="nav">
+                    <li onclick="window.location='index.html'">Home</li>
+                    <li onclick="window.location='category.html'">Category</li>
+                    <li onclick="window.location='about.html'">about us</li>
+                    <li onclick="window.location='contact.html'">Contact Us</li>
+                </ul>
+                <div class="icons">
+                    <li><i class="fas fa-cart-arrow-down"></i></li>
+                    <li><i class="fas fa-heart"></i></li>
+                    <li><i class="fas fa-user"></i></li>
+                </div>
+            </div>
+        </header>
+    <!----- about section ----->
+    <div class="about">
+        <div class="container">
+            <div class="title">
+                <h2>About <span>Us</span></h2>
+            </div>
+            <div class="field">
+                <div class="content">
+                    <h1>Introduction</h1>
+                    <p>
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Placeat, obcaecati quisquam perspiciatis laborum beatae similique perferendis laboriosam earum facilis laudantium odio? Vitae, rerum. Impedit, consequuntur!
+                    </p>
+                    <p>
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloremque esse adipisci sit at quibusdam harum?
+                    </p>
+                    <p class="show">
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sed neque nulla facere dolorem cum odit, amet consectetur quasi sapiente voluptatum ut vero sequi, error repellat. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae laboriosam consectetur blanditiis modi corrupti neque id ex amet, eveniet delectus!
+                    </p>
+                    <a class="btn" style="display: inline-block; cursor: pointer;" onclick="myfun();">
+                        read more
+                    </a>
+                </div>
+                <div class="imgBx">
+                    <img src="images/veg.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- slogan -->
+    <div class="slogan">
+        <div class="container">
+            <div class="msg">
+                <h2>Feed your family the best</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa voluptatibus possimus maiores
+                    quibusdam aliquid et.</p>
+                <a href="" class="btn" style="display: inline-block;">Contact Now</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- footer -->
+    <footer>
+        <div class="container">
+            <div class="field" style="flex-wrap: wrap;">
+                <div class="des">
+                    <div class="logo"><i class="fas fa-shopping-basket"></i>grocery</div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt, distinctio aperiam
+                        consequuntur!</p>
+                    <div class="social">
+                        <i class="fab fa-facebook-f"></i>
+                        <i class="fab fa-instagram"></i>
+                        <i class="fab fa-twitter"></i>
+                        <i class="fab fa-youtube"></i>
+                    </div>
+                </div>
+                <div class="category">
+                    <h2>best category</h2>
+                    <li>vegetables</li>
+                    <li>fruits</li>
+                    <li>meats</li>
+                    <li>juice</li>
+                </div>
+                <div class="links">
+                    <h2>important links</h2>
+                    <li>home</li>
+                    <li>category</li>
+                    <li>products</li>
+                    <li>contact</li>
+                </div>
+                <div class="contact">
+                    <h2>contact us</h2>
+                    <li><span>Address:</span> karve nagar, pune.</li>
+                    <li><span>Email-Id:</span> grosary@example.com</li>
+                    <li><span>Phone:</span> (0741)-32146541</li>
+                    <li><span>mobile:</span> +91 98741-98542</li>
+                </div>
+            </div>
+
+            <div class="copy">
+                <hr>
+                created by <span>Rushikesh Manwar</span> | All right reserved.!
+            </div>
+        </div>
+    </footer>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+        integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+        integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script>
+        $('.owl-carousel').owlCarousel({
+            loop: true,
+            margin: 10,
+            stagePadding: 40,
+            responsiveClass: true,
+            dots: true,
+            responsive: {
+                0: {
+                    items: 1,
+                    nav: true
+                },
+                400: {
+                    items: 2,
+                    nav: true
+                },
+                600: {
+                    items: 3,
+                    nav: true
+                },
+                1000: {
+                    items: 5,
+                    nav: true,
+                    loop: false
+                }
+            }
+        })
+    </script>
+
+    <!-- toggle menu onscroll -->
+    <script>
+        var header = document.querySelector('header');
+        window.addEventListener("scroll", () => {
+            header.classList.toggle('show', scrollY > 80);
+        })
+    </script>
+
+    <!-- read more paragraph -->
+    <script>
+        var about = document.querySelector('.about');
+        function myfun(){
+            about.classList.toggle('show');
+        }
+    </script>
+</body>
+
+</html>

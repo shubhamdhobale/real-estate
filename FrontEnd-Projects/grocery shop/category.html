@@ -1,0 +1,1410 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="grocery shop, grocery shop in pune, best grocery shop">
+    <meta name="keywords" content="grocery shop, grocery shop in pune, best grocery shop">
+    <meta name="author" content="rushikesh manwar">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+        integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+        integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+        integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <title>Grocery shop | Category</title>
+    <script>
+        window.onload = function () {
+            document.querySelector('.main-div').style.display = "block";
+            document.querySelector('.loader').style.display = "none";
+        }
+    </script>
+</head>
+
+<body>
+    <!------ grocery shop ------>
+    <!-- loader -->
+    <div class="loader">
+        <img src="images/loader_gif.gif" alt="">
+    </div>
+
+    <!----- main-division ----->
+    <div class="main-div">
+        <!-- header -->
+        <header>
+            <div class="nav-bar-1">
+                <div class="container">
+                    <div class="logo"><i class="fas fa-shopping-basket"></i>grocery</div>
+                    <div class="search"><input type="search" name="" id="" placeholder="Search grocery.."><i
+                            class="fas fa-search"></i></div>
+                </div>
+            </div>
+            <div class="nav-bar-2">
+                <ul class="nav">
+                    <li onclick="window.location='index.html'">Home</li>
+                    <li onclick="window.location='category.html'">Category</li>
+                    <li onclick="window.location='about.html'">about us</li>
+                    <li onclick="window.location='contact.html'">Contact Us</li>
+                </ul>
+                <div class="icons">
+                    <li><i class="fas fa-cart-arrow-down"></i></li>
+                    <li><i class="fas fa-heart"></i></li>
+                    <li><i class="fas fa-user"></i></li>
+                </div>
+            </div>
+        </header>
+        <!-- category -->
+        <div class="category">
+            <div class="container">
+                <div class="title">
+                    <h2>shop by <span>category</span></h2>
+                </div>
+                <div class="field">
+                    <div class="box">
+                        <h2>vegetable</h2>
+                        <p>upto 35% off</p>
+                        <img src="images/veg.jpg" alt="category">
+                        <a href="#vegetables" class="btn">shop now</a>
+                    </div>
+                    <div class="box">
+                        <h2>meats</h2>
+                        <p>upto 15% off</p>
+                        <img src="images/meat1.jpg" alt="category">
+                        <a href="#meats" class="btn">shop now</a>
+                    </div>
+                    <div class="box">
+                        <h2>fruits</h2>
+                        <p>upto 25% off</p>
+                        <img src="images/fruits.jpg" alt="category">
+                        <a href="#fruits" class="btn">shop now</a>
+                    </div>
+                    <div class="box">
+                        <h2>juice</h2>
+                        <p>upto 45% off</p>
+                        <img src="images/juice.jpg" alt="category">
+                        <a href="#juice" class="btn">shop now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Vegetables products -->
+        <div class="products products1" id="vegetables">
+            <div class="container">
+                <div class="title1">
+                    <h2>fresh <span>vegetables</span></h2>
+                    <hr>
+                </div>
+                <div class="field owl-carousel">
+                    <div class="card">
+                        <div class="descount">-35%</div>
+                        <div class="icons">
+                            <i class="fas fa-heart"></i>
+                            <i class="fas fa-share"></i>
+                            <i class="fas fa-eye"></i>
+                        </div>
+                        <div class="imgBx">
+                            <img src="images/vegetables/broccoli.jpg" alt="">
+                        </div>
+                        <h2 class="name">fresh broccoli</h2>
+                        <div class="rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <div class="price">
+                            <h2>&#8377;120.00/-</h2>
+                            <del>150.00/-</del>
+                        </div>
+                        <div class="qty">
+                            <h2>quantity:</h2>
+                            <input type="number" value="1" name="qty" id="" min="1" max="10">
+                            <span>/kg</span>
+                        </div>
+                        <div class="shop">
+                            <a href="" class="btn" style="display: block;">add to card</a>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="descount">-35%</div>
+                        <div class="icons">
+                            <i class="fas fa-heart"></i>
+                            <i class="fas fa-share"></i>
+                            <i class="fas fa-eye"></i>
+                        </div>
+                        <div class="imgBx">
+                            <img src="images/vegetables/chili-pepper.jpg" alt="">
+                        </div>
+                        <h2 class="name">fresh chili pepper</h2>
+                        <div class="rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <div class="price">
+                            <h2>&#8377;120.00/-</h2>
+                            <del>150.00/-</del>
+                        </div>
+                        <div class="qty">
+                            <h2>quantity:</h2>
+                            <input type="number" value="1" name="qty" id="" min="1" max="10">
+                            <span>/kg</span>
+                        </div>
+                        <div class="shop">
+                            <a href="" class="btn" style="display: block;">add to card</a>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="descount">-35%</div>
+                        <div class="icons">
+                            <i class="fas fa-heart"></i>
+                            <i class="fas fa-share"></i>
+                            <i class="fas fa-eye"></i>
+                        </div>
+                        <div class="imgBx">
+                            <img src="images/vegetables/ginger-root.jpg" alt="">
+                        </div>
+                        <h2 class="name">fresh ginger root</h2>
+                        <div class="rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <div class="price">
+                            <h2>&#8377;120.00/-</h2>
+                            <del>150.00/-</del>
+                        </div>
+                        <div class="qty">
+                            <h2>quantity:</h2>
+                            <input type="number" value="1" name="qty" id="" min="1" max="10">
+                            <span>/kg</span>
+                        </div>
+                        <div class="shop">
+                            <a href="" class="btn" style="display: block;">add to card</a>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="descount">-35%</div>
+                        <div class="icons">
+                            <i class="fas fa-heart"></i>
+                            <i class="fas fa-share"></i>
+                            <i class="fas fa-eye"></i>
+                        </div>
+                        <div class="imgBx">
+                            <img src="images/vegetables/green-lettuce.jpg" alt="">
+                        </div>
+                        <h2 class="name">fresh green lettuce</h2>
+                        <div class="rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <div class="price">
+                            <h2>&#8377;120.00/-</h2>
+                            <del>150.00/-</del>
+                        </div>
+                        <div class="qty">
+                            <h2>quantity:</h2>
+                            <input type="number" value="1" name="qty" id="" min="1" max="10">
+                            <span>/kg</span>
+                        </div>
+                        <div class="shop">
+                            <a href="" class="btn" style="display: block;">add to card</a>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="descount">-35%</div>
+                        <div class="icons">
+                            <i class="fas fa-heart"></i>
+                            <i class="fas fa-share"></i>
+                            <i class="fas fa-eye"></i>
+                        </div>
+                        <div class="imgBx">
+                            <img src="images/vegetables/natural-peas.jpg" alt="">
+                        </div>
+                        <h2 class="name">fresh natural peas</h2>
+                        <div class="rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <div class="price">
+                            <h2>&#8377;120.00/-</h2>
+                            <del>150.00/-</del>
+                        </div>
+                        <div class="qty">
+                            <h2>quantity:</h2>
+                            <input type="number" value="1" name="qty" id="" min="1" max="10">
+                            <span>/kg</span>
+                        </div>
+                        <div class="shop">
+                            <a href="" class="btn" style="display: block;">add to card</a>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="descount">-35%</div>
+                        <div class="icons">
+                            <i class="fas fa-heart"></i>
+                            <i class="fas fa-share"></i>
+                            <i class="fas fa-eye"></i>
+                        </div>
+                        <div class="imgBx">
+                            <img src="images/vegetables/tomato.jpg" alt="">
+                        </div>
+                        <h2 class="name">fresh tomato</h2>
+                        <div class="rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <div class="price">
+                            <h2>&#8377;120.00/-</h2>
+                            <del>150.00/-</del>
+                        </div>
+                        <div class="qty">
+                            <h2>quantity:</h2>
+                            <input type="number" value="1" name="qty" id="" min="1" max="10">
+                            <span>/kg</span>
+                        </div>
+                        <div class="shop">
+                            <a href="" class="btn" style="display: block;">add to card</a>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="descount">-35%</div>
+                        <div class="icons">
+                            <i class="fas fa-heart"></i>
+                            <i class="fas fa-share"></i>
+                            <i class="fas fa-eye"></i>
+                        </div>
+                        <div class="imgBx">
+                            <img src="images/vegetables/green-beans.jpg" alt="">
+                        </div>
+                        <h2 class="name">fresh green beans</h2>
+                        <div class="rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <div class="price">
+                            <h2>&#8377;120.00/-</h2>
+                            <del>150.00/-</del>
+                        </div>
+                        <div class="qty">
+                            <h2>quantity:</h2>
+                            <input type="number" value="1" name="qty" id="" min="1" max="10">
+                            <span>/kg</span>
+                        </div>
+                        <div class="shop">
+                            <a href="" class="btn" style="display: block;">add to card</a>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="descount">-35%</div>
+                        <div class="icons">
+                            <i class="fas fa-heart"></i>
+                            <i class="fas fa-share"></i>
+                            <i class="fas fa-eye"></i>
+                        </div>
+                        <div class="imgBx">
+                            <img src="images/vegetables/fresh-pumpkin.jpg" alt="">
+                        </div>
+                        <h2 class="name">fresh pumpkin</h2>
+                        <div class="rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <div class="price">
+                            <h2>&#8377;120.00/-</h2>
+                            <del>150.00/-</del>
+                        </div>
+                        <div class="qty">
+                            <h2>quantity:</h2>
+                            <input type="number" value="1" name="qty" id="" min="1" max="10">
+                            <span>/kg</span>
+                        </div>
+                        <div class="shop">
+                            <a href="" class="btn" style="display: block;">add to card</a>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="descount">-35%</div>
+                        <div class="icons">
+                            <i class="fas fa-heart"></i>
+                            <i class="fas fa-share"></i>
+                            <i class="fas fa-eye"></i>
+                        </div>
+                        <div class="imgBx">
+                            <img src="images/vegetables/pachyrhizus-erosus.jpg" alt="">
+                        </div>
+                        <h2 class="name">fresh pachyrhizus erosus</h2>
+                        <div class="rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <div class="price">
+                            <h2>&#8377;120.00/-</h2>
+                            <del>150.00/-</del>
+                        </div>
+                        <div class="qty">
+                            <h2>quantity:</h2>
+                            <input type="number" value="1" name="qty" id="" min="1" max="10">
+                            <span>/kg</span>
+                        </div>
+                        <div class="shop">
+                            <a href="" class="btn" style="display: block;">add to card</a>
+                        </div>
+                    </div>
+
+                <div class="card">
+                <div class="descount">-35%</div>
+                <div class="icons">
+                    <i class="fas fa-heart"></i>
+                    <i class="fas fa-share"></i>
+                    <i class="fas fa-eye"></i>
+                </div>
+                <div class="imgBx">
+                    <img src="images/vegetables/onion.jpg" alt="">
+                </div>
+                <h2 class="name">fresh onion</h2>
+                <div class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <div class="price">
+                    <h2>&#8377;120.00/-</h2>
+                    <del>150.00/-</del>
+                </div>
+                <div class="qty">
+                    <h2>quantity:</h2>
+                    <input type="number" value="1" name="qty" id="" min="1" max="10">
+                    <span>/kg</span>
+                </div>
+                <div class="shop">
+                    <a href="" class="btn" style="display: block;">add to card</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <!-- Fruits products -->
+    <div class="products products1" id="fruits">
+        <div class="container">
+            <div class="title1">
+                <h2>fresh <span>Fruits</span></h2>
+                <hr>
+            </div>
+            <div class="field owl-carousel">
+                <div class="card">
+                    <div class="descount">-35%</div>
+                    <div class="icons">
+                        <i class="fas fa-heart"></i>
+                        <i class="fas fa-share"></i>
+                        <i class="fas fa-eye"></i>
+                    </div>
+                    <div class="imgBx">
+                        <img src="images/fruits/apple.jpg" alt="">
+                    </div>
+                    <h2 class="name">fresh apple</h2>
+                    <div class="rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <div class="price">
+                        <h2>&#8377;120.00/-</h2>
+                        <del>150.00/-</del>
+                    </div>
+                    <div class="qty">
+                        <h2>quantity:</h2>
+                        <input type="number" value="1" name="qty" id="" min="1" max="10">
+                        <span>/kg</span>
+                    </div>
+                    <div class="shop">
+                        <a href="" class="btn" style="display: block;">add to card</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="descount">-35%</div>
+                    <div class="icons">
+                        <i class="fas fa-heart"></i>
+                        <i class="fas fa-share"></i>
+                        <i class="fas fa-eye"></i>
+                    </div>
+                    <div class="imgBx">
+                        <img src="images/fruits/green-red-grape.jpg" alt="">
+                    </div>
+                    <h2 class="name">fresh green red grape</h2>
+                    <div class="rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <div class="price">
+                        <h2>&#8377;120.00/-</h2>
+                        <del>150.00/-</del>
+                    </div>
+                    <div class="qty">
+                        <h2>quantity:</h2>
+                        <input type="number" value="1" name="qty" id="" min="1" max="10">
+                        <span>/kg</span>
+                    </div>
+                    <div class="shop">
+                        <a href="" class="btn" style="display: block;">add to card</a>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="descount">-35%</div>
+                    <div class="icons">
+                        <i class="fas fa-heart"></i>
+                        <i class="fas fa-share"></i>
+                        <i class="fas fa-eye"></i>
+                    </div>
+                    <div class="imgBx">
+                        <img src="images/fruits/mango.png" alt="">
+                    </div>
+                    <h2 class="name">fresh mango</h2>
+                    <div class="rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <div class="price">
+                        <h2>&#8377;120.00/-</h2>
+                        <del>150.00/-</del>
+                    </div>
+                    <div class="qty">
+                        <h2>quantity:</h2>
+                        <input type="number" value="1" name="qty" id="" min="1" max="10">
+                        <span>/kg</span>
+                    </div>
+                    <div class="shop">
+                        <a href="" class="btn" style="display: block;">add to card</a>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="descount">-35%</div>
+                    <div class="icons">
+                        <i class="fas fa-heart"></i>
+                        <i class="fas fa-share"></i>
+                        <i class="fas fa-eye"></i>
+                    </div>
+                    <div class="imgBx">
+                        <img src="images/fruits/Pomegranate.jpg" alt="">
+                    </div>
+                    <h2 class="name">fresh Pomegranate</h2>
+                    <div class="rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <div class="price">
+                        <h2>&#8377;120.00/-</h2>
+                        <del>150.00/-</del>
+                    </div>
+                    <div class="qty">
+                        <h2>quantity:</h2>
+                        <input type="number" value="1" name="qty" id="" min="1" max="10">
+                        <span>/kg</span>
+                    </div>
+                    <div class="shop">
+                        <a href="" class="btn" style="display: block;">add to card</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="descount">-35%</div>
+                    <div class="icons">
+                        <i class="fas fa-heart"></i>
+                        <i class="fas fa-share"></i>
+                        <i class="fas fa-eye"></i>
+                    </div>
+                    <div class="imgBx">
+                        <img src="images/fruits/bananas.jpg" alt="">
+                    </div>
+                    <h2 class="name">fresh bananas</h2>
+                    <div class="rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <div class="price">
+                        <h2>&#8377;120.00/-</h2>
+                        <del>150.00/-</del>
+                    </div>
+                    <div class="qty">
+                        <h2>quantity:</h2>
+                        <input type="number" value="1" name="qty" id="" min="1" max="10">
+                        <span>/kg</span>
+                    </div>
+                    <div class="shop">
+                        <a href="" class="btn" style="display: block;">add to card</a>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="descount">-35%</div>
+                    <div class="icons">
+                        <i class="fas fa-heart"></i>
+                        <i class="fas fa-share"></i>
+                        <i class="fas fa-eye"></i>
+                    </div>
+                    <div class="imgBx">
+                        <img src="images/fruits/blue berry.jpg" alt="">
+                    </div>
+                    <h2 class="name">fresh blue berry</h2>
+                    <div class="rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <div class="price">
+                        <h2>&#8377;120.00/-</h2>
+                        <del>150.00/-</del>
+                    </div>
+                    <div class="qty">
+                        <h2>quantity:</h2>
+                        <input type="number" value="1" name="qty" id="" min="1" max="10">
+                        <span>/kg</span>
+                    </div>
+                    <div class="shop">
+                        <a href="" class="btn" style="display: block;">add to card</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="descount">-35%</div>
+                    <div class="icons">
+                        <i class="fas fa-heart"></i>
+                        <i class="fas fa-share"></i>
+                        <i class="fas fa-eye"></i>
+                    </div>
+                    <div class="imgBx">
+                        <img src="images/fruits/dragon fruit.png" alt="">
+                    </div>
+                    <h2 class="name">fresh dragon fruit</h2>
+                    <div class="rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <div class="price">
+                        <h2>&#8377;120.00/-</h2>
+                        <del>150.00/-</del>
+                    </div>
+                    <div class="qty">
+                        <h2>quantity:</h2>
+                        <input type="number" value="1" name="qty" id="" min="1" max="10">
+                        <span>/kg</span>
+                    </div>
+                    <div class="shop">
+                        <a href="" class="btn" style="display: block;">add to card</a>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="descount">-35%</div>
+                    <div class="icons">
+                        <i class="fas fa-heart"></i>
+                        <i class="fas fa-share"></i>
+                        <i class="fas fa-eye"></i>
+                    </div>
+                    <div class="imgBx">
+                        <img src="images/fruits/pineapple.png" alt="">
+                    </div>
+                    <h2 class="name">fresh pineapple</h2>
+                    <div class="rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <div class="price">
+                        <h2>&#8377;120.00/-</h2>
+                        <del>150.00/-</del>
+                    </div>
+                    <div class="qty">
+                        <h2>quantity:</h2>
+                        <input type="number" value="1" name="qty" id="" min="1" max="10">
+                        <span>/kg</span>
+                    </div>
+                    <div class="shop">
+                        <a href="" class="btn" style="display: block;">add to card</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="descount">-35%</div>
+                    <div class="icons">
+                        <i class="fas fa-heart"></i>
+                        <i class="fas fa-share"></i>
+                        <i class="fas fa-eye"></i>
+                    </div>
+                    <div class="imgBx">
+                        <img src="images/fruits/stwaberry.jpg" alt="">
+                    </div>
+                    <h2 class="name">fresh stwaberry</h2>
+                    <div class="rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <div class="price">
+                        <h2>&#8377;120.00/-</h2>
+                        <del>150.00/-</del>
+                    </div>
+                    <div class="qty">
+                        <h2>quantity:</h2>
+                        <input type="number" value="1" name="qty" id="" min="1" max="10">
+                        <span>/kg</span>
+                    </div>
+                    <div class="shop">
+                        <a href="" class="btn" style="display: block;">add to card</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Meats products -->
+    <div class="products products1" id="meats">
+        <div class="container">
+            <div class="title1">
+                <h2>fresh <span>Raw Meats</span></h2>
+                <hr>
+            </div>
+            <div class="field owl-carousel">
+                <div class="card">
+                    <div class="descount">-35%</div>
+                    <div class="icons">
+                        <i class="fas fa-heart"></i>
+                        <i class="fas fa-share"></i>
+                        <i class="fas fa-eye"></i>
+                    </div>
+                    <div class="imgBx">
+                        <img src="images/meats/chicken-breast.jpg" alt="">
+                    </div>
+                    <h2 class="name">fresh chicken breast</h2>
+                    <div class="rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <div class="price">
+                        <h2>&#8377;120.00/-</h2>
+                        <del>150.00/-</del>
+                    </div>
+                    <div class="qty">
+                        <h2>quantity:</h2>
+                        <input type="number" value="1" name="qty" id="" min="1" max="10">
+                        <span>/kg</span>
+                    </div>
+                    <div class="shop">
+                        <a href="" class="btn" style="display: block;">add to card</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="descount">-35%</div>
+                    <div class="icons">
+                        <i class="fas fa-heart"></i>
+                        <i class="fas fa-share"></i>
+                        <i class="fas fa-eye"></i>
+                    </div>
+                    <div class="imgBx">
+                        <img src="images/meats/chicken-meat.jpg" alt="">
+                    </div>
+                    <h2 class="name">fresh chicken meat</h2>
+                    <div class="rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <div class="price">
+                        <h2>&#8377;120.00/-</h2>
+                        <del>150.00/-</del>
+                    </div>
+                    <div class="qty">
+                        <h2>quantity:</h2>
+                        <input type="number" value="1" name="qty" id="" min="1" max="10">
+                        <span>/kg</span>
+                    </div>
+                    <div class="shop">
+                        <a href="" class="btn" style="display: block;">add to card</a>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="descount">-35%</div>
+                    <div class="icons">
+                        <i class="fas fa-heart"></i>
+                        <i class="fas fa-share"></i>
+                        <i class="fas fa-eye"></i>
+                    </div>
+                    <div class="imgBx">
+                        <img src="images/meats/fresh-fillet-grill.jpg" alt="">
+                    </div>
+                    <h2 class="name">fresh fillet grill</h2>
+                    <div class="rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <div class="price">
+                        <h2>&#8377;120.00/-</h2>
+                        <del>150.00/-</del>
+                    </div>
+                    <div class="qty">
+                        <h2>quantity:</h2>
+                        <input type="number" value="1" name="qty" id="" min="1" max="10">
+                        <span>/kg</span>
+                    </div>
+                    <div class="shop">
+                        <a href="" class="btn" style="display: block;">add to card</a>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="descount">-35%</div>
+                    <div class="icons">
+                        <i class="fas fa-heart"></i>
+                        <i class="fas fa-share"></i>
+                        <i class="fas fa-eye"></i>
+                    </div>
+                    <div class="imgBx">
+                        <img src="images/meats/raw-meat.jpg" alt="">
+                    </div>
+                    <h2 class="name">raw-meat</h2>
+                    <div class="rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <div class="price">
+                        <h2>&#8377;120.00/-</h2>
+                        <del>150.00/-</del>
+                    </div>
+                    <div class="qty">
+                        <h2>quantity:</h2>
+                        <input type="number" value="1" name="qty" id="" min="1" max="10">
+                        <span>/kg</span>
+                    </div>
+                    <div class="shop">
+                        <a href="" class="btn" style="display: block;">add to card</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="descount">-35%</div>
+                    <div class="icons">
+                        <i class="fas fa-heart"></i>
+                        <i class="fas fa-share"></i>
+                        <i class="fas fa-eye"></i>
+                    </div>
+                    <div class="imgBx">
+                        <img src="images/meats/shrimp.jpg" alt="">
+                    </div>
+                    <h2 class="name">fresh shrimp</h2>
+                    <div class="rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <div class="price">
+                        <h2>&#8377;120.00/-</h2>
+                        <del>150.00/-</del>
+                    </div>
+                    <div class="qty">
+                        <h2>quantity:</h2>
+                        <input type="number" value="1" name="qty" id="" min="1" max="10">
+                        <span>/kg</span>
+                    </div>
+                    <div class="shop">
+                        <a href="" class="btn" style="display: block;">add to card</a>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="descount">-35%</div>
+                    <div class="icons">
+                        <i class="fas fa-heart"></i>
+                        <i class="fas fa-share"></i>
+                        <i class="fas fa-eye"></i>
+                    </div>
+                    <div class="imgBx">
+                        <img src="images/meats/brown-eggs.jpg" alt="">
+                    </div>
+                    <h2 class="name">fresh brown eggs</h2>
+                    <div class="rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <div class="price">
+                        <h2>&#8377;120.00/-</h2>
+                        <del>150.00/-</del>
+                    </div>
+                    <div class="qty">
+                        <h2>quantity:</h2>
+                        <input type="number" value="1" name="qty" id="" min="1" max="10">
+                        <span>/kg</span>
+                    </div>
+                    <div class="shop">
+                        <a href="" class="btn" style="display: block;">add to card</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="descount">-35%</div>
+                    <div class="icons">
+                        <i class="fas fa-heart"></i>
+                        <i class="fas fa-share"></i>
+                        <i class="fas fa-eye"></i>
+                    </div>
+                    <div class="imgBx">
+                        <img src="images/meats/fresh-fish.jpg" alt="">
+                    </div>
+                    <h2 class="name">fresh fish</h2>
+                    <div class="rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <div class="price">
+                        <h2>&#8377;120.00/-</h2>
+                        <del>150.00/-</del>
+                    </div>
+                    <div class="qty">
+                        <h2>quantity:</h2>
+                        <input type="number" value="1" name="qty" id="" min="1" max="10">
+                        <span>/kg</span>
+                    </div>
+                    <div class="shop">
+                        <a href="" class="btn" style="display: block;">add to card</a>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="descount">-35%</div>
+                    <div class="icons">
+                        <i class="fas fa-heart"></i>
+                        <i class="fas fa-share"></i>
+                        <i class="fas fa-eye"></i>
+                    </div>
+                    <div class="imgBx">
+                        <img src="images/meats/fillet-tasty-salmon.jpg" alt="">
+                    </div>
+                    <h2 class="name">fresh tasty salmon</h2>
+                    <div class="rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <div class="price">
+                        <h2>&#8377;120.00/-</h2>
+                        <del>150.00/-</del>
+                    </div>
+                    <div class="qty">
+                        <h2>quantity:</h2>
+                        <input type="number" value="1" name="qty" id="" min="1" max="10">
+                        <span>/kg</span>
+                    </div>
+                    <div class="shop">
+                        <a href="" class="btn" style="display: block;">add to card</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="descount">-35%</div>
+                    <div class="icons">
+                        <i class="fas fa-heart"></i>
+                        <i class="fas fa-share"></i>
+                        <i class="fas fa-eye"></i>
+                    </div>
+                    <div class="imgBx">
+                        <img src="images/meats/fresh-bass.jpg" alt="">
+                    </div>
+                    <h2 class="name">fresh bass</h2>
+                    <div class="rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <div class="price">
+                        <h2>&#8377;120.00/-</h2>
+                        <del>150.00/-</del>
+                    </div>
+                    <div class="qty">
+                        <h2>quantity:</h2>
+                        <input type="number" value="1" name="qty" id="" min="1" max="10">
+                        <span>/kg</span>
+                    </div>
+                    <div class="shop">
+                        <a href="" class="btn" style="display: block;">add to card</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="descount">-35%</div>
+                    <div class="icons">
+                        <i class="fas fa-heart"></i>
+                        <i class="fas fa-share"></i>
+                        <i class="fas fa-eye"></i>
+                    </div>
+                    <div class="imgBx">
+                        <img src="images/meats/steamed-crabs.jpg" alt="">
+                    </div>
+                    <h2 class="name">fresh steamed crabs</h2>
+                    <div class="rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <div class="price">
+                        <h2>&#8377;120.00/-</h2>
+                        <del>150.00/-</del>
+                    </div>
+                    <div class="qty">
+                        <h2>quantity:</h2>
+                        <input type="number" value="1" name="qty" id="" min="1" max="10">
+                        <span>/kg</span>
+                    </div>
+                    <div class="shop">
+                        <a href="" class="btn" style="display: block;">add to card</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- juice products -->
+    <div class="products products1" id="juice">
+        <div class="container">
+            <div class="title1">
+                <h2>fresh <span>Fruits Juice</span></h2>
+                <hr>
+            </div>
+            <div class="field owl-carousel">
+                <div class="card">
+                    <div class="descount">-35%</div>
+                    <div class="icons">
+                        <i class="fas fa-heart"></i>
+                        <i class="fas fa-share"></i>
+                        <i class="fas fa-eye"></i>
+                    </div>
+                    <div class="imgBx">
+                        <img src="images/juice/orange-juice.jpg" alt="">
+                    </div>
+                    <h2 class="name">fresh orange juice</h2>
+                    <div class="rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <div class="price">
+                        <h2>&#8377;120.00/-</h2>
+                        <del>150.00/-</del>
+                    </div>
+                    <div class="qty">
+                        <h2>quantity:</h2>
+                        <input type="number" value="1" name="qty" id="" min="1" max="10">
+                        <span>/kg</span>
+                    </div>
+                    <div class="shop">
+                        <a href="" class="btn" style="display: block;">add to card</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="descount">-35%</div>
+                    <div class="icons">
+                        <i class="fas fa-heart"></i>
+                        <i class="fas fa-share"></i>
+                        <i class="fas fa-eye"></i>
+                    </div>
+                    <div class="imgBx">
+                        <img src="images/juice/pomegranate-juice.jpg" alt="">
+                    </div>
+                    <h2 class="name">Pomegranate juice</h2>
+                    <div class="rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <div class="price">
+                        <h2>&#8377;120.00/-</h2>
+                        <del>150.00/-</del>
+                    </div>
+                    <div class="qty">
+                        <h2>quantity:</h2>
+                        <input type="number" value="1" name="qty" id="" min="1" max="10">
+                        <span>/kg</span>
+                    </div>
+                    <div class="shop">
+                        <a href="" class="btn" style="display: block;">add to card</a>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="descount">-35%</div>
+                    <div class="icons">
+                        <i class="fas fa-heart"></i>
+                        <i class="fas fa-share"></i>
+                        <i class="fas fa-eye"></i>
+                    </div>
+                    <div class="imgBx">
+                        <img src="images/juice/cherry juice.jpg" alt="">
+                    </div>
+                    <h2 class="name">cherry juice</h2>
+                    <div class="rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <div class="price">
+                        <h2>&#8377;120.00/-</h2>
+                        <del>150.00/-</del>
+                    </div>
+                    <div class="qty">
+                        <h2>quantity:</h2>
+                        <input type="number" value="1" name="qty" id="" min="1" max="10">
+                        <span>/kg</span>
+                    </div>
+                    <div class="shop">
+                        <a href="" class="btn" style="display: block;">add to card</a>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="descount">-35%</div>
+                    <div class="icons">
+                        <i class="fas fa-heart"></i>
+                        <i class="fas fa-share"></i>
+                        <i class="fas fa-eye"></i>
+                    </div>
+                    <div class="imgBx">
+                        <img src="images/juice/lemon cocktail.jpg" alt="">
+                    </div>
+                    <h2 class="name">lemon cocktail</h2>
+                    <div class="rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <div class="price">
+                        <h2>&#8377;120.00/-</h2>
+                        <del>150.00/-</del>
+                    </div>
+                    <div class="qty">
+                        <h2>quantity:</h2>
+                        <input type="number" value="1" name="qty" id="" min="1" max="10">
+                        <span>/kg</span>
+                    </div>
+                    <div class="shop">
+                        <a href="" class="btn" style="display: block;">add to card</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="descount">-35%</div>
+                    <div class="icons">
+                        <i class="fas fa-heart"></i>
+                        <i class="fas fa-share"></i>
+                        <i class="fas fa-eye"></i>
+                    </div>
+                    <div class="imgBx">
+                        <img src="images/juice/lemon juice.jpg" alt="">
+                    </div>
+                    <h2 class="name">fresh lemon juice</h2>
+                    <div class="rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <div class="price">
+                        <h2>&#8377;120.00/-</h2>
+                        <del>150.00/-</del>
+                    </div>
+                    <div class="qty">
+                        <h2>quantity:</h2>
+                        <input type="number" value="1" name="qty" id="" min="1" max="10">
+                        <span>/kg</span>
+                    </div>
+                    <div class="shop">
+                        <a href="" class="btn" style="display: block;">add to card</a>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="descount">-35%</div>
+                    <div class="icons">
+                        <i class="fas fa-heart"></i>
+                        <i class="fas fa-share"></i>
+                        <i class="fas fa-eye"></i>
+                    </div>
+                    <div class="imgBx">
+                        <img src="images/juice/orange cocktail.jpg" alt="">
+                    </div>
+                    <h2 class="name">fresh orange cocktail</h2>
+                    <div class="rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <div class="price">
+                        <h2>&#8377;120.00/-</h2>
+                        <del>150.00/-</del>
+                    </div>
+                    <div class="qty">
+                        <h2>quantity:</h2>
+                        <input type="number" value="1" name="qty" id="" min="1" max="10">
+                        <span>/kg</span>
+                    </div>
+                    <div class="shop">
+                        <a href="" class="btn" style="display: block;">add to card</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="descount">-35%</div>
+                    <div class="icons">
+                        <i class="fas fa-heart"></i>
+                        <i class="fas fa-share"></i>
+                        <i class="fas fa-eye"></i>
+                    </div>
+                    <div class="imgBx">
+                        <img src="images/juice/stwaberry juice.jpg" alt="">
+                    </div>
+                    <h2 class="name">fresh stwaberry juice</h2>
+                    <div class="rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <div class="price">
+                        <h2>&#8377;120.00/-</h2>
+                        <del>150.00/-</del>
+                    </div>
+                    <div class="qty">
+                        <h2>quantity:</h2>
+                        <input type="number" value="1" name="qty" id="" min="1" max="10">
+                        <span>/kg</span>
+                    </div>
+                    <div class="shop">
+                        <a href="" class="btn" style="display: block;">add to card</a>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="descount">-35%</div>
+                    <div class="icons">
+                        <i class="fas fa-heart"></i>
+                        <i class="fas fa-share"></i>
+                        <i class="fas fa-eye"></i>
+                    </div>
+                    <div class="imgBx">
+                        <img src="images/juice/strawberry-cocktail.jpg" alt="">
+                    </div>
+                    <h2 class="name">fresh strawberry cocktail</h2>
+                    <div class="rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <div class="price">
+                        <h2>&#8377;120.00/-</h2>
+                        <del>150.00/-</del>
+                    </div>
+                    <div class="qty">
+                        <h2>quantity:</h2>
+                        <input type="number" value="1" name="qty" id="" min="1" max="10">
+                        <span>/kg</span>
+                    </div>
+                    <div class="shop">
+                        <a href="" class="btn" style="display: block;">add to card</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- slogan -->
+    <div class="slogan">
+        <div class="container">
+            <div class="msg">
+                <h2>Feed your family the best</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa voluptatibus possimus maiores
+                    quibusdam aliquid et.</p>
+                <a href="" class="btn" style="display: inline-block;">Contact Now</a>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="container">
+            <div class="field" style="flex-wrap: wrap;">
+                <div class="des">
+                    <div class="logo"><i class="fas fa-shopping-basket"></i>grocery</div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt, distinctio aperiam
+                        consequuntur!</p>
+                    <div class="social">
+                        <i class="fab fa-facebook-f"></i>
+                        <i class="fab fa-instagram"></i>
+                        <i class="fab fa-twitter"></i>
+                        <i class="fab fa-youtube"></i>
+                    </div>
+                </div>
+                <div class="category">
+                    <h2>best category</h2>
+                    <li>vegetables</li>
+                    <li>fruits</li>
+                    <li>meats</li>
+                    <li>juice</li>
+                </div>
+                <div class="links">
+                    <h2>important links</h2>
+                    <li>home</li>
+                    <li>category</li>
+                    <li>products</li>
+                    <li>contact</li>
+                </div>
+                <div class="contact">
+                    <h2>contact us</h2>
+                    <li><span>Address:</span> karve nagar, pune.</li>
+                    <li><span>Email-Id:</span> grosary@example.com</li>
+                    <li><span>Phone:</span> (0741)-32146541</li>
+                    <li><span>mobile:</span> +91 98741-98542</li>
+                </div>
+            </div>
+
+            <div class="copy">
+                <hr>
+                created by <span>Rushikesh Manwar</span> | All right reserved.!
+            </div>
+        </div>
+    </footer>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+        integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+        integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script>
+        $('.owl-carousel').owlCarousel({
+            loop: true,
+            margin: 10,
+            stagePadding: 40,
+            responsiveClass: true,
+            dots: true,
+            responsive: {
+                0: {
+                    items: 1,
+                    nav: true
+                },
+                400: {
+                    items: 2,
+                    nav: true
+                },
+                600: {
+                    items: 3,
+                    nav: true
+                },
+                1000: {
+                    items: 5,
+                    nav: true,
+                    loop: false
+                }
+            }
+        })
+    </script>
+
+    <!-- toggle menu onscroll -->
+    <script>
+        var header = document.querySelector('header');
+        window.addEventListener("scroll", () => {
+            header.classList.toggle('show', scrollY > 80);
+        })
+    </script>
+</body>
+
+</html>
