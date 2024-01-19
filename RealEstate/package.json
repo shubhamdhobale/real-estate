@@ -1,5 +1,8 @@
 {
-  "dependencies": {
-    "jsonwebtoken": "^9.0.2"
-  }
+
+    "type": "module",
+    "dependencies": {
+        "cookie-parser": "^1.4.6",
+        "jsonwebtoken": "^9.0.2"
+    }
 }
