@@ -1,23 +1,13 @@
 import { useSelector } from 'react-redux';
 import { useRef, useState, useEffect } from 'react';
-import {
-  getDownloadURL,
-  getStorage,
-  ref,
-  uploadBytesResumable,
-} from 'firebase/storage';
+import {getDownloadURL,getStorage, ref, uploadBytesResumable,} from 'firebase/storage';
 import { app } from '../firebase';
-import {
-  updateUserStart,
-  updateUserSuccess,
-  updateUserFailure,
-  // deleteUserFailure,
-  // deleteUserStart,
-  // deleteUserSuccess,
-  // signOutUserStart,
-} from '../redux/user/userSlice';
+import {updateUserStart,updateUserSuccess, updateUserFailure, deleteUserFailure, deleteUserStart, deleteUserSuccess, SignOutUserStart, SignOutUserFailure, SignOutUserSuccess, } from '../redux/user/userSlice'
+
 import { useDispatch } from 'react-redux';
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
+
+
 
 export default function Profile() {
   const fileRef = useRef(null);
@@ -30,6 +20,7 @@ export default function Profile() {
   const [showListingsError, setShowListingsError] = useState(false);
   const [userListings, setUserListings] = useState([]);
   const dispatch = useDispatch();
+  const navigate = useNavigate();
 
   // firebase storage
   // allow read;
@@ -110,21 +101,22 @@ export default function Profile() {
     } catch (error) {
       dispatch(deleteUserFailure(error.message));
     }
+    navigate('/signin')
   };
 
   const handleSignOut = async () => {
-    try {
-      dispatch(signOutUserStart());
-      const res = await fetch('/server/auth/signout');
-      const data = await res.json();
-      if (data.success === false) {
-        dispatch(deleteUserFailure(data.message));
-        return;
-      }
-      dispatch(deleteUserSuccess(data));
-    } catch (error) {
-      dispatch(deleteUserFailure(data.message));
+   try {
+    dispatch(SignOutUserStart());
+    const res = await fetch('server/auth/signout');
+    const data = await res.json();
+    if (data.success === false) {
+      dispatch(SignOutUserFailure(data.message));
+      return;
     }
+    dispatch(SignOutUserSuccess(data));
+   } catch (error) {
+    dispatch(SignOutUserFailure(data.message));
+   }
   };
 
   const handleShowListings = async () => {
