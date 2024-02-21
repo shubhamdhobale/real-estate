@@ -6,7 +6,7 @@ import SignIn from "./Pages/SignIn";
 import SignUp from "./Pages/SignUp";
 import Header from "./components/Header";
 import PrivateRoute from "./components/PrivateRoute";
-import { CreateListing } from "./Pages/CreateListing";
+import CreateListing from './Pages/CreateListing';
 
 const App = () => {
   return (
