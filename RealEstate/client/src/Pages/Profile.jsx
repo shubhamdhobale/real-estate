@@ -115,14 +115,14 @@ export default function Profile() {
     }
     dispatch(SignOutUserSuccess(data));
    } catch (error) {
-    dispatch(SignOutUserFailure(data.message));
+    dispatch(SignOutUserFailure(error.message));
    }
   };
 
   const handleShowListings = async () => {
     try {
       setShowListingsError(false);
-      const res = await fetch(`/api/user/listings/${currentUser._id}`);
+      const res = await fetch(`/server/user/listings/${currentUser._id}`);
       const data = await res.json();
       if (data.success === false) {
         setShowListingsError(true);
